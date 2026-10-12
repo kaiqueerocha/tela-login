@@ -1,8 +1,13 @@
 @charset "UTF-8";
 
 @media screen and (min-width: 390px) and (max-width: 992px) {
+
+    div.campo > span{
+        width: auto;
+    }
     div.campo > input{
         width: 78%;
+        height: 78%;
     }
 
     body{
