@@ -1,6 +1,10 @@
 @charset "UTF-8";
 
 @media screen and (min-width: 390px) and (max-width: 992px) {
+    div.campo > input{
+        width: 78%;
+    }
+
     body{
         background-image: linear-gradient(to bottom, #443C73, #013165);
     }

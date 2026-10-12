@@ -29,7 +29,6 @@ section#login{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
     background-color: white;
 
     width: 250px;
@@ -37,6 +36,7 @@ section#login{
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.584);
 
+    transform: translate(-50%, -50%);
     transition: width.1.5s, height .1.5s;
 }
 
@@ -60,8 +60,35 @@ div#formulario >p{
     font-size: 0.8em;
 }
 
+div.campo > label{
+    display: none;
+}
+
+div.campo > span{
+    box-shadow: 1px 1px rgba(0, 0, 0, 0.411);
+    background-color: rgb(211, 211, 211);
+    color: black;
+    border-radius: 20px;
+    font-size: 2em;
+    padding: 3.5px;
+    width: 40px;
+}
+
+div.campo > input{
+    box-shadow: 1px 1px rgba(0, 0, 0, 0.322);
+    background-color: lightgray;
+    font-size: 1em;
+    width:85%;
+    height: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 4px;
+    transform:translateY(-8px);
+}
+
 
 form > input[type=submit]{
+    margin-top: 10px;
     display: block;
     font-size: 1em;
     width: 100%;
